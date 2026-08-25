@@ -28,5 +28,6 @@
 - **Contrast checked in both themes**, for every locale/font — some scripts
   (e.g. Nastaliq) render visually denser than Latin text at the same size.
 - **`prefers-reduced-motion` respected** — animations fall back to instant.
-- **CI gate:** an automated accessibility check (axe) runs against the
-  public page and admin forms, in one LTR and one RTL locale, before merge.
+- **Local gate:** an automated accessibility check (axe) runs against the
+  public page and admin forms, in one LTR and one RTL locale, before merge
+  (no CI runner - run it locally, see CLAUDE.md).

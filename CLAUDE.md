@@ -11,7 +11,9 @@ on the GitHub Project board. Architecture/data model: `docs/ARCHITECTURE.md`.
 
 - **TDD.** Write the failing test before the implementation, for every
   feature — Vitest for schemas/lib/API routes, React Testing Library for
-  components, Playwright for end-to-end flows. CI blocks merge on red.
+  components, Playwright for end-to-end flows. No GitHub Actions CI runner
+  (disabled) - run `npm run lint`, `npm run test`, and `npm run test:e2e`
+  locally before merging; all must pass.
 - **Next.js 16, not 15.** `middleware.ts` is deprecated — use `proxy.ts`
   exporting a `proxy` function. Proxy is a routing/redirect boundary, not a
   substitute for real authorization: every admin Server Action and Route
@@ -49,4 +51,5 @@ on the GitHub Project board. Architecture/data model: `docs/ARCHITECTURE.md`.
   not `Added` / `Adds`).
 - One GitHub Issue per PR where practical; PR description states which
   locales were touched and what tests were added.
-- Merge requires CI green (lint + Vitest + Playwright).
+- Merge requires lint + Vitest + Playwright passing locally (no automated
+  CI runner - see Non-negotiables above).
