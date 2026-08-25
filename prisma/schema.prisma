@@ -1,0 +1,112 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Book {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+  isbn          String?  @unique
+  title         String
+  author        String
+  description   String?
+  coverUrl      String?
+  shelfNumber   String
+  available     Boolean  @default(true)
+
+  languageId    String
+  language      Language @relation(fields: [languageId], references: [id])
+
+  categories    BookCategory[]
+  subjects      BookSubject[]
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([title])
+  @@index([author])
+  @@index([languageId])
+}
+
+model Category {
+  id        String         @id @default(cuid())
+  name      String         @unique
+  books     BookCategory[]
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+}
+
+model Subject {
+  id        String        @id @default(cuid())
+  name      String        @unique
+  books     BookSubject[]
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+}
+
+model Language {
+  id        String   @id @default(cuid())
+  code      String   @unique
+  name      String
+  rtl       Boolean  @default(false)
+  books     Book[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model BookCategory {
+  bookId     String
+  categoryId String
+  book       Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([bookId, categoryId])
+  @@index([categoryId])
+}
+
+model BookSubject {
+  bookId    String
+  subjectId String
+  book      Book    @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@id([bookId, subjectId])
+  @@index([subjectId])
+}
+
+model Admin {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
+
+model AdminAuditLog {
+  id         String   @id @default(cuid())
+  adminId    String
+  entityType String // "book" | "category" | "subject" | "language" | "site_setting"
+  entityId   String
+  action     String // "create" | "update" | "delete" | "toggle_availability"
+  detail     Json?
+  createdAt  DateTime @default(now())
+
+  @@index([entityType, entityId])
+  @@index([adminId])
+}
+
+// Singleton row (single fixed id) holding site-wide configuration.
+model SiteSetting {
+  id                 String   @id @default("singleton")
+  siteName           String   @default("Kitaabi")
+  logoUrl            String?
+  maintenanceMode    Boolean  @default(false)
+  maintenanceMessage Json? // per-locale text, e.g. { "en": "...", "ur": "..." }
+  updatedAt          DateTime @updatedAt
+}

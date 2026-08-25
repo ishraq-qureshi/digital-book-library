@@ -1,0 +1,29 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Production build
+/build
+
+# Prisma generated client
+/app/generated/prisma
+
+# Env files - never commit secrets
+.env
+.env*.local
+
+# Testing
+/coverage
+/playwright-report
+/test-results
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
+.vercel
+*.tsbuildinfo
