@@ -14,13 +14,19 @@ board.
 ```bash
 docker compose up -d postgres   # or `docker compose up` to run the app in a container too
 cp .env.example .env            # already present with local defaults; edit if needed
-npx prisma migrate deploy
 npm install
+npx prisma migrate deploy
+npx prisma db seed              # 5 base languages + a dev admin account
 npm run dev
 ```
 
 App runs at http://localhost:3000, redirecting to `/en` (also available:
-`/ur`, `/sd`, `/fa`, `/ar`).
+`/ur`, `/sd`, `/fa`, `/ar`). Admin is at `/en/admin` (redirects to
+`/en/admin/login` if signed out).
+
+Seeded admin credentials default to `admin` / `kitaabi-dev-only` - override
+with `ADMIN_USERNAME` / `ADMIN_PASSWORD` env vars before seeding if you want
+something else locally.
 
 ## Testing
 

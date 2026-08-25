@@ -22,7 +22,9 @@
   account.
 - **i18n:** `next-intl`, locale-prefixed routing (`/en`, `/ur`, `/sd`, `/fa`,
   `/ar`), RTL resolved per locale.
-- **UI:** Tailwind CSS + shadcn/ui (Radix primitives) — see
+- **UI:** Tailwind CSS + shadcn/ui (Base UI primitives, not Radix — this
+  install resolved to the newer Base UI-backed shadcn components; `Dialog`'s
+  close/trigger use the `render={<Element />}` prop, not `asChild`) — see
   `docs/DESIGN_SYSTEM.md`.
 - **Validation:** Zod, shared between forms and API/Server Action handlers.
 

@@ -10,6 +10,68 @@
   "ThemeToggle": {
     "label": "تھیم بدلیں"
   },
+  "AdminNav": {
+    "dashboardTitle": "ایڈمن",
+    "categories": "زمرہ جات",
+    "subjects": "موضوعات",
+    "languages": "زبانیں",
+    "signOut": "سائن آؤٹ"
+  },
+  "AdminCategories": {
+    "title": "زمرہ جات",
+    "addPlaceholder": "نیا زمرہ کا نام",
+    "addButton": "شامل کریں",
+    "empty": "ابھی کوئی زمرہ نہیں۔",
+    "bookCountLabel": "کتابیں",
+    "rename": "نام بدلیں",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ کریں",
+    "delete": "حذف کریں",
+    "deleteConfirmTitle": "زمرہ حذف کریں؟",
+    "deleteConfirmBody": "یہ \"{name}\" کو ان تمام کتابوں سے ہٹا دے گا جو اسے استعمال کرتی ہیں۔ اسے واپس نہیں کیا جا سکتا۔",
+    "genericError": "کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+  "AdminSubjects": {
+    "title": "موضوعات",
+    "addPlaceholder": "نیا موضوع کا نام",
+    "addButton": "شامل کریں",
+    "empty": "ابھی کوئی موضوع نہیں۔",
+    "bookCountLabel": "کتابیں",
+    "rename": "نام بدلیں",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ کریں",
+    "delete": "حذف کریں",
+    "deleteConfirmTitle": "موضوع حذف کریں؟",
+    "deleteConfirmBody": "یہ \"{name}\" کو ان تمام کتابوں سے ہٹا دے گا جو اسے استعمال کرتی ہیں۔ اسے واپس نہیں کیا جا سکتا۔",
+    "genericError": "کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+  "AdminLanguages": {
+    "title": "زبانیں",
+    "codeLabel": "کوڈ",
+    "codePlaceholder": "مثلاً en",
+    "nameLabel": "نام",
+    "namePlaceholder": "نئی زبان کا نام",
+    "rtlLabel": "دائیں سے بائیں",
+    "addButton": "شامل کریں",
+    "empty": "ابھی کوئی زبان نہیں۔",
+    "bookCountLabel": "کتابیں",
+    "rename": "نام بدلیں",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ کریں",
+    "delete": "حذف کریں",
+    "deleteConfirmTitle": "زبان حذف کریں؟",
+    "deleteConfirmBody": "\"{name}\" حذف کریں؟ اسے واپس نہیں کیا جا سکتا۔",
+    "inUseError": "حذف نہیں کیا جا سکتا - ابھی بھی {count} کتاب(وں) میں استعمال ہو رہی ہے۔",
+    "genericError": "کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+  "AdminLogin": {
+    "title": "ایڈمن سائن ان",
+    "usernameLabel": "صارف نام",
+    "passwordLabel": "پاس ورڈ",
+    "submit": "سائن ان کریں",
+    "error": "غلط صارف نام یا پاس ورڈ۔",
+    "rateLimited": "بہت زیادہ کوششیں۔ چند منٹ بعد دوبارہ کوشش کریں۔"
+  },
   "NotFound": {
     "title": "صفحہ نہیں ملا",
     "body": "جس صفحے کی آپ تلاش کر رہے ہیں وہ موجود نہیں یا منتقل ہو گیا ہے۔",

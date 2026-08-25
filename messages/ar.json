@@ -10,6 +10,68 @@
   "ThemeToggle": {
     "label": "تبديل المظهر"
   },
+  "AdminNav": {
+    "dashboardTitle": "المسؤول",
+    "categories": "الفئات",
+    "subjects": "المواضيع",
+    "languages": "اللغات",
+    "signOut": "تسجيل الخروج"
+  },
+  "AdminCategories": {
+    "title": "الفئات",
+    "addPlaceholder": "اسم فئة جديدة",
+    "addButton": "إضافة",
+    "empty": "لا توجد فئات بعد.",
+    "bookCountLabel": "الكتب",
+    "rename": "إعادة تسمية",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "deleteConfirmTitle": "حذف الفئة؟",
+    "deleteConfirmBody": "سيؤدي هذا إلى إزالة \"{name}\" من جميع الكتب التي تستخدمها. لا يمكن التراجع عن هذا.",
+    "genericError": "حدث خطأ ما. حاول مرة أخرى."
+  },
+  "AdminSubjects": {
+    "title": "المواضيع",
+    "addPlaceholder": "اسم موضوع جديد",
+    "addButton": "إضافة",
+    "empty": "لا توجد مواضيع بعد.",
+    "bookCountLabel": "الكتب",
+    "rename": "إعادة تسمية",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "deleteConfirmTitle": "حذف الموضوع؟",
+    "deleteConfirmBody": "سيؤدي هذا إلى إزالة \"{name}\" من جميع الكتب التي تستخدمها. لا يمكن التراجع عن هذا.",
+    "genericError": "حدث خطأ ما. حاول مرة أخرى."
+  },
+  "AdminLanguages": {
+    "title": "اللغات",
+    "codeLabel": "الرمز",
+    "codePlaceholder": "مثل en",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "اسم لغة جديدة",
+    "rtlLabel": "من اليمين إلى اليسار",
+    "addButton": "إضافة",
+    "empty": "لا توجد لغات بعد.",
+    "bookCountLabel": "الكتب",
+    "rename": "إعادة تسمية",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "deleteConfirmTitle": "حذف اللغة؟",
+    "deleteConfirmBody": "حذف \"{name}\"؟ لا يمكن التراجع عن هذا.",
+    "inUseError": "لا يمكن الحذف - لا تزال مستخدمة في {count} كتاب.",
+    "genericError": "حدث خطأ ما. حاول مرة أخرى."
+  },
+  "AdminLogin": {
+    "title": "تسجيل دخول المسؤول",
+    "usernameLabel": "اسم المستخدم",
+    "passwordLabel": "كلمة المرور",
+    "submit": "تسجيل الدخول",
+    "error": "اسم المستخدم أو كلمة المرور غير صحيحة.",
+    "rateLimited": "محاولات كثيرة جدًا. حاول مرة أخرى بعد بضع دقائق."
+  },
   "NotFound": {
     "title": "الصفحة غير موجودة",
     "body": "الصفحة التي تبحث عنها غير موجودة أو ربما تم نقلها.",

@@ -10,6 +10,68 @@
   "ThemeToggle": {
     "label": "موضوع بدلايو"
   },
+  "AdminNav": {
+    "dashboardTitle": "ايڊمن",
+    "categories": "ورگ",
+    "subjects": "موضوع",
+    "languages": "ٻوليون",
+    "signOut": "سائن آئوٽ"
+  },
+  "AdminCategories": {
+    "title": "ورگ",
+    "addPlaceholder": "نئي ورگ جو نالو",
+    "addButton": "شامل ڪريو",
+    "empty": "اڃا تائين ڪو ورگ ناهي.",
+    "bookCountLabel": "ڪتاب",
+    "rename": "نالو بدلايو",
+    "save": "محفوظ ڪريو",
+    "cancel": "رد ڪريو",
+    "delete": "ختم ڪريو",
+    "deleteConfirmTitle": "ورگ ختم ڪريو؟",
+    "deleteConfirmBody": "اهو \"{name}\" کي انهن سڀني ڪتابن مان هٽائي ڇڏيندو جي ان کي استعمال ڪن ٿا. اهو واپس نه ٿي سڪندو.",
+    "genericError": "ڪجهه غلط ٿي ويو. مهرباني ڪري ٻيهر ڪوشش ڪريو."
+  },
+  "AdminSubjects": {
+    "title": "موضوع",
+    "addPlaceholder": "نئي موضوع جو نالو",
+    "addButton": "شامل ڪريو",
+    "empty": "اڃا تائين ڪو موضوع ناهي.",
+    "bookCountLabel": "ڪتاب",
+    "rename": "نالو بدلايو",
+    "save": "محفوظ ڪريو",
+    "cancel": "رد ڪريو",
+    "delete": "ختم ڪريو",
+    "deleteConfirmTitle": "موضوع ختم ڪريو؟",
+    "deleteConfirmBody": "اهو \"{name}\" کي انهن سڀني ڪتابن مان هٽائي ڇڏيندو جي ان کي استعمال ڪن ٿا. اهو واپس نه ٿي سڪندو.",
+    "genericError": "ڪجهه غلط ٿي ويو. مهرباني ڪري ٻيهر ڪوشش ڪريو."
+  },
+  "AdminLanguages": {
+    "title": "ٻوليون",
+    "codeLabel": "ڪوڊ",
+    "codePlaceholder": "مثال طور en",
+    "nameLabel": "نالو",
+    "namePlaceholder": "نئي ٻولي جو نالو",
+    "rtlLabel": "ساڄي کان کاٻي",
+    "addButton": "شامل ڪريو",
+    "empty": "اڃا تائين ڪا ٻولي ناهي.",
+    "bookCountLabel": "ڪتاب",
+    "rename": "نالو بدلايو",
+    "save": "محفوظ ڪريو",
+    "cancel": "رد ڪريو",
+    "delete": "ختم ڪريو",
+    "deleteConfirmTitle": "ٻولي ختم ڪريو؟",
+    "deleteConfirmBody": "\"{name}\" ختم ڪريو؟ اهو واپس نه ٿي سڪندو.",
+    "inUseError": "ختم نه ٿي سڪندو - اڃا تائين {count} ڪتاب(ن) ۾ استعمال ٿي رهي آهي.",
+    "genericError": "ڪجهه غلط ٿي ويو. مهرباني ڪري ٻيهر ڪوشش ڪريو."
+  },
+  "AdminLogin": {
+    "title": "ايڊمن سائن ان",
+    "usernameLabel": "استعمال ڪندڙ نالو",
+    "passwordLabel": "پاسورڊ",
+    "submit": "سائن ان ڪريو",
+    "error": "غلط استعمال ڪندڙ نالو يا پاسورڊ.",
+    "rateLimited": "گھڻيون ڪوششون. ڪجھ منٽن بعد ٻيهر ڪوشش ڪريو."
+  },
   "NotFound": {
     "title": "صفحو نه مليو",
     "body": "جو صفحو توهان ڳولي رهيا آهيو اهو موجود ناهي يا هٽايو ويو آهي.",

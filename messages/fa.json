@@ -10,6 +10,68 @@
   "ThemeToggle": {
     "label": "تغییر پوسته"
   },
+  "AdminNav": {
+    "dashboardTitle": "مدیر",
+    "categories": "دسته‌بندی‌ها",
+    "subjects": "موضوعات",
+    "languages": "زبان‌ها",
+    "signOut": "خروج"
+  },
+  "AdminCategories": {
+    "title": "دسته‌بندی‌ها",
+    "addPlaceholder": "نام دسته جدید",
+    "addButton": "افزودن",
+    "empty": "هنوز دسته‌ای وجود ندارد.",
+    "bookCountLabel": "کتاب‌ها",
+    "rename": "تغییر نام",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "delete": "حذف",
+    "deleteConfirmTitle": "دسته حذف شود؟",
+    "deleteConfirmBody": "این کار \"{name}\" را از تمام کتاب‌هایی که از آن استفاده می‌کنند حذف می‌کند. این عمل غیرقابل بازگشت است.",
+    "genericError": "خطایی رخ داد. لطفاً دوباره تلاش کنید."
+  },
+  "AdminSubjects": {
+    "title": "موضوعات",
+    "addPlaceholder": "نام موضوع جدید",
+    "addButton": "افزودن",
+    "empty": "هنوز موضوعی وجود ندارد.",
+    "bookCountLabel": "کتاب‌ها",
+    "rename": "تغییر نام",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "delete": "حذف",
+    "deleteConfirmTitle": "موضوع حذف شود؟",
+    "deleteConfirmBody": "این کار \"{name}\" را از تمام کتاب‌هایی که از آن استفاده می‌کنند حذف می‌کند. این عمل غیرقابل بازگشت است.",
+    "genericError": "خطایی رخ داد. لطفاً دوباره تلاش کنید."
+  },
+  "AdminLanguages": {
+    "title": "زبان‌ها",
+    "codeLabel": "کد",
+    "codePlaceholder": "مثلاً en",
+    "nameLabel": "نام",
+    "namePlaceholder": "نام زبان جدید",
+    "rtlLabel": "راست‌به‌چپ",
+    "addButton": "افزودن",
+    "empty": "هنوز زبانی وجود ندارد.",
+    "bookCountLabel": "کتاب‌ها",
+    "rename": "تغییر نام",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "delete": "حذف",
+    "deleteConfirmTitle": "زبان حذف شود؟",
+    "deleteConfirmBody": "\"{name}\" حذف شود؟ این عمل غیرقابل بازگشت است.",
+    "inUseError": "قابل حذف نیست - هنوز در {count} کتاب استفاده می‌شود.",
+    "genericError": "خطایی رخ داد. لطفاً دوباره تلاش کنید."
+  },
+  "AdminLogin": {
+    "title": "ورود مدیر",
+    "usernameLabel": "نام کاربری",
+    "passwordLabel": "رمز عبور",
+    "submit": "ورود",
+    "error": "نام کاربری یا رمز عبور نادرست است.",
+    "rateLimited": "تعداد تلاش‌ها بیش از حد است. چند دقیقه دیگر دوباره تلاش کنید."
+  },
   "NotFound": {
     "title": "صفحه پیدا نشد",
     "body": "صفحه‌ای که به دنبال آن هستید وجود ندارد یا منتقل شده است.",

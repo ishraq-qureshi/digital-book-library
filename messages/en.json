@@ -10,6 +10,68 @@
   "ThemeToggle": {
     "label": "Toggle theme"
   },
+  "AdminNav": {
+    "dashboardTitle": "Admin",
+    "categories": "Categories",
+    "subjects": "Subjects",
+    "languages": "Languages",
+    "signOut": "Sign out"
+  },
+  "AdminCategories": {
+    "title": "Categories",
+    "addPlaceholder": "New category name",
+    "addButton": "Add",
+    "empty": "No categories yet.",
+    "bookCountLabel": "Books",
+    "rename": "Rename",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleteConfirmTitle": "Delete category?",
+    "deleteConfirmBody": "This removes \"{name}\" from any books that use it. This cannot be undone.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "AdminSubjects": {
+    "title": "Subjects",
+    "addPlaceholder": "New subject name",
+    "addButton": "Add",
+    "empty": "No subjects yet.",
+    "bookCountLabel": "Books",
+    "rename": "Rename",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleteConfirmTitle": "Delete subject?",
+    "deleteConfirmBody": "This removes \"{name}\" from any books that use it. This cannot be undone.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "AdminLanguages": {
+    "title": "Languages",
+    "codeLabel": "Code",
+    "codePlaceholder": "e.g. en",
+    "nameLabel": "Name",
+    "namePlaceholder": "New language name",
+    "rtlLabel": "Right-to-left",
+    "addButton": "Add",
+    "empty": "No languages yet.",
+    "bookCountLabel": "Books",
+    "rename": "Rename",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleteConfirmTitle": "Delete language?",
+    "deleteConfirmBody": "Delete \"{name}\"? This cannot be undone.",
+    "inUseError": "Can't delete - still used by {count} book(s).",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "AdminLogin": {
+    "title": "Admin sign in",
+    "usernameLabel": "Username",
+    "passwordLabel": "Password",
+    "submit": "Sign in",
+    "error": "Incorrect username or password.",
+    "rateLimited": "Too many attempts. Try again in a few minutes."
+  },
   "NotFound": {
     "title": "Page not found",
     "body": "The page you're looking for doesn't exist or may have moved.",
